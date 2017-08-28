@@ -1,0 +1,67 @@
+div {
+    margin: auto;
+    text-align: center;
+}
+
+.btn {
+    width: 25%;
+    height: 25%;
+    font-weight: bold;
+    margin-top: 4px;
+    border: none;
+    font-size: 45;
+    background-color:lightskyblue;
+}
+
+.break {
+    display: inline-block;
+    width: 100%;
+}
+
+.game {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.btn:disabled {
+    color: black;
+}
+
+.menu {
+    width: 20%;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: none;
+    background-color:lightskyblue;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.score {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.labels {
+    width: 90%;
+    /*margin-top: 0.1%;
+    margin-bottom: 2%;*/
+    color: darkblue;
+    text-shadow: 5px 5px 5px lightskyblue;
+}
+
+#title {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18;
+}
+
+#options {
+    font-weight: bold;
+    font-size: 18;
+}
+
+.top , .bottom {
+    background-color:#d7ecff;
+}
