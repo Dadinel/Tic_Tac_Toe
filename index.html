@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" href="style/game.css">
+            <script src="script/game.js"></script>
+    </head>
+    <body onload=start() >
+        <div class="empty" >
+            </br>
+        </div>
+        <div class="top">
+            <div class="labels" id="title">
+                <label >Score</label>
+            </div>
+            <div>
+                <label class="score" >Player</label>
+                <label class="score" >Computer</label>
+            </div>
+            <div>
+                <label class="score" id="playerScore" >0</label>
+                <label class="score" id="computerScore" >0</label>
+            </div>
+        </div>
+        <div class="game">
+            <div class="break">
+                <button onclick=onClick(this) class="btn" id="01" ></button>
+                <button onclick=onClick(this) class="btn" id="02" ></button>
+                <button onclick=onClick(this) class="btn" id="03" ></button>
+            </div>
+            <div class="break">
+                <button onclick=onClick(this) class="btn" id="04" ></button>
+                <button onclick=onClick(this) class="btn" id="05" ></button>
+                <button onclick=onClick(this) class="btn" id="06" ></button>
+            </div>
+            <div class="break">
+                <button onclick=onClick(this) class="btn" id="07" ></button>
+                <button onclick=onClick(this) class="btn" id="08" ></button>
+                <button onclick=onClick(this) class="btn" id="09" ></button>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="labels" id="options">
+                <label>Options</label>
+            </div>
+            <div>
+                <button id="reset" class="menu" onclick=reset() >Reset</button>
+                <button id="change" class="menu" onclick=change() >Change</button>
+            </div>
+            <div class="empty" >
+                </br>
+            </div>
+        </div>
+    </body>
+</html>
